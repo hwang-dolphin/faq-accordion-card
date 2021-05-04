@@ -1,0 +1,225 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+:root{
+	--veryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+	--softRed: hsl(14, 88%, 65%);
+	--softViolet: hsl(273, 75%, 66%);
+	--softBlue: hsl(240, 73%, 65%);
+	--veryDarkGrayishBlue: hsl(237, 12%, 33%);
+	--darkGrayishBlue: hsl(240, 6%, 50%);
+	--lightGrayishBlue: hsl(240, 5%, 91%);
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 400;
+
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+
+	background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
+	position: relative;
+}
+
+hr
+{
+	height: 1px;
+	border: 1px solid var(--lightGrayishBlue);
+	width: 85%;
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+}
+
+
+.card
+{
+	height: 70vh;
+	width: 88vw;
+	max-width: 28.8rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	background-color: snow;
+
+	border-radius: 2rem;
+
+	position: absolute;
+	top: 19.3vh;
+
+}
+
+.illustration
+{
+
+	background-image: url(./images/bg-pattern-mobile.svg), url(./images/illustration-woman-online-mobile.svg);
+	background-repeat: no-repeat, no-repeat;
+	
+	background-position-x: 0, -2.4rem;
+	background-position-y: 10.4rem, 0;
+	background-size: 20.7rem 8rem, 23rem 17.1rem;
+
+	
+	width: 63vw;
+	height: 28vh;
+
+	max-width: 20.7rem;
+	max-height: 19rem;
+
+	position: absolute;
+	top: -14.5vh;
+}
+
+.faq
+{
+	height: 54vh;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	position: absolute;
+	bottom: 0;
+
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+}
+
+.faq > p:nth-child(1)
+{
+	font-size: 1.75em;
+	color: black;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 3vh;
+	margin-bottom: 4.5vh;
+
+}
+
+.team-invite
+{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: var(--darkGrayishBlue);
+	font-size: 0.75em;
+	margin-left: 15%;
+
+}
+
+.team-invite-answer
+{
+	display: none;
+	width: 100%;
+	height: auto;
+	font-size: 0.875em;
+
+}
+
+.max-file
+{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: var(--darkGrayishBlue);
+	font-size: 0.75em;
+	margin-left: 15%;
+}
+
+
+.max-file-answer
+{
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.password
+{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: var(--darkGrayishBlue);
+	font-size: 0.75em;
+	margin-left: 15%;
+}
+
+
+.password-answer
+{
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.cancel
+{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: var(--darkGrayishBlue);
+	font-size: 0.75em;
+	margin-left: 15%;
+}
+
+.cancel-answer
+{
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.support
+{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	color: var(--darkGrayishBlue);
+	font-size: 0.75em;
+	margin-left: 15%;
+}
+
+.support-answer
+{
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.accordion
+{
+	text-align: left;
+	color: var(--darkGrayishBlue);
+	font-size: 0.875em;
+	display: block;
+	width: 80%;
+	line-height: 1.6;
+	margin-top: 2.5vh;
+	margin-bottom: 1vh;
+
+	
+}
+
+.dark
+{
+	color: black;
+	font-weight: 700;
+}
